@@ -2,7 +2,7 @@
 node_modules/
 
 # Ignora o arquivo com variáveis sensíveis de ambiente
-.env
+
 
 # Ignora arquivos de log gerados durante a execução do app
 logs

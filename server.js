@@ -12,7 +12,7 @@ const productRoutes = require('./routes/productRoutes');
 app.use(express.json());
 
 app.use(cors({                               // 2. Usamos o cors para liberar acesso
-  origin: 'http://localhost:5173',          // só do frontend
+  origin: 'https://trazpramim-fron.vercel.app',          // só do frontend
   methods: ['GET','POST','PUT','DELETE'],
   credentials: true
 }));
